@@ -4,8 +4,8 @@
 // Title:		fitfunc.c
 // Purpose:		A short description of the implementation.
 //
-// Created on:	16/02/2021 at 17:32:38 by Shaked Tuval.
-// Copyright:	Tel Aviv University. All Rights Reserved.
+// Created by: Shaked Tuval, 2021
+// License:    MIT License (see LICENSE file)
 //
 //==============================================================================
 
