@@ -3,8 +3,8 @@
 // Title:		datafitheader.h
 // Purpose:		A short description of the interface.
 //
-// Created on:	14/02/2021 at 16:28:15 by Shaked Tuval.
-// Copyright:	Tel Aviv University. All Rights Reserved.
+// Created by: Shaked Tuval, 2021
+// License:    MIT License (see LICENSE file)
 //
 //==============================================================================
 
