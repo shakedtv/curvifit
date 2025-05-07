@@ -1,10 +1,10 @@
 //==============================================================================
 //
 // Title:		generalfit.c
-// Purpose:		A short description of the implementation.
+// Purpose:		Main fitting function.
 //
-// Created on:	14/02/2021 at 14:35:40 by Shaked Tuval.
-// Copyright:	Tel Aviv University. All Rights Reserved.
+// Created by: Shaked Tuval, 2021
+// License:    MIT License (see LICENSE file)
 //
 //==============================================================================
 
