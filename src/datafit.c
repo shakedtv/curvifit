@@ -3,8 +3,8 @@
 // Title:		datafit
 // Purpose:		A short description of the application.
 //
-// Created on:	12/02/2021 at 13:03:09 by Shaked Tuval.
-// Copyright:	Tel Aviv University. All Rights Reserved.
+// Created by: Shaked Tuval, 2021
+// License:    MIT License (see LICENSE file)
 //
 //==============================================================================
 
@@ -366,12 +366,12 @@ int CVICALLBACK Fit (int panel, int control, int event,
 			char initastr[250] = "", fitparstr[250] = "", covstr[1000] = "", temp[200] = "";
 			
 			for (i = 0; i < na; i++) {
-				sprintf (temp, "a%d = %f ± %f\n", i, initfit.a[i], err);
+				sprintf (temp, "a%d = %f Â± %f\n", i, initfit.a[i], err);
 				strcat (initastr, temp);
 			}
 			
 			for (i = 0; i < na; i++) {
-				sprintf (temp, "a%d = %f ± %f\n", i, fitpar.a[i], fitpar.aerr[i]);
+				sprintf (temp, "a%d = %f Â± %f\n", i, fitpar.a[i], fitpar.aerr[i]);
 				strcat (fitparstr, temp);
 			}
 			
