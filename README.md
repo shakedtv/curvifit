@@ -2,38 +2,27 @@
 
 A scientific tool developed as a final project in C, designed to fit experimental measurement data to various models.
 
-## Supported Models
+## Supported Fitting Models
 - Linear
 - Polynomial (user-defined degree, up to 10)
 - Exponential (base e and 10)
 - Logarithmic (any base)
 - Gaussian
 
-## Features
-- Import data from file or clipboard
-- Define and control fitting range
-- Auto-estimation of initial parameters
-- Levenberg–Marquardt optimization
-- Error propagation on both axes
-- Graphical plots: data, fitted curve, and residuals
-- Export results to file
+## Features Overview
 
-## Detailed Features
-
-- Import data from a file or directly from the clipboard  
+- Import data from file or clipboard  
 - Display measurement graph with error bars  
-- Define fitting range within the imported data  
-- Perform initial fit using built-in CVI functions  
-- Display initial fit graph  
-- Fit supported functions: linear, polynomial (up to degree 10), exponential, Gaussian, logarithmic (base e and 10)  
+- Select and control fitting range within imported data  
+- Fit models: linear, polynomial (up to degree 10), exponential, logarithmic (base e and 10), Gaussian  
+- Auto-estimation of initial parameters and Levenberg–Marquardt optimization  
 - Custom curve fitting algorithm (written from scratch)  
-- Calculate fitting parameter errors and covariance matrix  
-- Evaluate fit quality (Chi-squared, reduced Chi-squared, p-value)  
-- Plot resulting fit curve  
-- Plot residuals graph  
-- Allow user-defined graph and axis titles  
-- Export fitted parameters to a text file  
-- Integrated help window explaining how to use the tool
+- Calculation of parameter errors and covariance matrix  
+- Evaluation of fit quality: Chi-squared, reduced Chi-squared, p-value  
+- Graphical output: initial fit, optimized fit, residuals  
+- Customize graph/axis titles, toggle graph elements, export plots as images  
+- Export fit parameters to a text file  
+- Integrated help window with full user instructions
 
 **Graph window features:**
 
